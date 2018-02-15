@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{padding: 0;margin: 0;}
+body,html{height: 100%;}
+
+body{background: url(../images/bg.png),pink;font-family: "微软雅黑";}
+
+#game_wrap{
+	width:350px;height:550px;
+	border: 2px solid #fff;
+	margin: 50px auto;
+	background:url(../images/1.jpg);
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.title{
+	font-size: 30px;margin:50px 0;
+	color:#fff;
+}
+
+.btn{
+	width: 150px;
+	line-height: 40px;margin:50px auto;
+	display: block;
+	font-size:14px;
+	border:none;
+}
+
+.btn:hover{
+	background:#ccc;
+}
+
+.plane{
+	width:60px;
+	height:36px;
+	position:absolute;
+	left:0;top:0;
+}
+
+.bullet{
+	position:absolute;
+	left:0;top:0;
+	width:6px;
+	height:22px;
+}
+
+.enemy{
+	position: absolute;
+	left:0;top:0;
+	width:23px;
+	height:30px;
+}
+
+.score{
+	position:absolute;
+	top:10px;
+	left:10px;
+	font-size:14px;
+	color:#fff;
+	z-index: 10;
+}
+
+.over{font-size:40px;color:#fff;margin-top: 150px;}
+.total{color:#fff;font-size:30px;margin-top:30px;}
+.resetGame{margin-top:80px;line-height:36px;width:150px;font-size:18px;}
+
+.miss{
+	position: absolute;
+	right:10px;
+	top:10px;
+	color:#fff;
+	font-size:14px;
+	z-index:10;
+}
